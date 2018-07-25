@@ -6,7 +6,7 @@ public class ConnectFour {
 	static String[][] board = new String[6][7];
 
 	/*
-	 * This function bill the board as empty
+	 * This function fill the board as empty
 	 */
 	static void fillBoardArray() {
 		for (int i = 0; i < board.length; i++) {
